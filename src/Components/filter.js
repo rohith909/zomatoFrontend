@@ -33,7 +33,7 @@ class Filter extends React.Component{
         };
 
         axios({
-            url:'http://localhost:2021/filter',
+            url:'http://zomato-clone-9.herokuapp.com/filter',
             method:'POST',
             headers:{'Content-Type' : 'application/json'},
             data:filterObj
@@ -44,7 +44,7 @@ class Filter extends React.Component{
         .catch( err => console.log(err))
 
         axios({
-            url:'http://localhost:2021/location',
+            url:'http://zomato-clone-9.herokuapp.com/location',
             method:'GET',
             headers:{'Content-Type' : 'application/json'}
         })
@@ -68,7 +68,7 @@ class Filter extends React.Component{
             page
         };
         axios({
-            url:'http://localhost:2021/filter',
+            url:'http://zomato-clone-9.herokuapp.com/filter',
             method:'POST',
             headers:{'Content-Type' : 'application/json'},
             data:filterObj
@@ -95,7 +95,7 @@ class Filter extends React.Component{
         };
 
         axios({
-            url:'http://localhost:2021/filter',
+            url:'http://zomato-clone-9.herokuapp.com/filter',
             method:'POST',
             headers:{'Content-Type' : 'application/json'},
             data:filterObj
@@ -122,7 +122,7 @@ class Filter extends React.Component{
         };
 
         axios({
-            url:'http://localhost:2021/filter',
+            url:'http://zomato-clone-9.herokuapp.com/filter',
             method:'POST',
             headers:{'Content-Type' : 'application/json'},
             data:filterObj
@@ -147,7 +147,7 @@ class Filter extends React.Component{
         };
 
         axios({
-            url:'http://localhost:2021/filter',
+            url:'http://zomato-clone-9.herokuapp.com/filter',
             method:'POST',
             headers:{'Content-Type' : 'application/json'},
             data:filterObj
@@ -181,7 +181,7 @@ class Filter extends React.Component{
         };
 
         axios({
-            url:'http://localhost:2021/filter',
+            url:'http://zomato-clone-9.herokuapp.com/filter',
             method:'POST',
             headers:{'Content-Type' : 'application/json'},
             data:filterObj
