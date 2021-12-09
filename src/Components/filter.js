@@ -33,7 +33,7 @@ class Filter extends React.Component{
         };
 
         axios({
-            url:'https://videoappchats.herokuapp.com/filter',
+            url:'https://videoappchat.herokuapp.com/filter',
             method:'POST',
             headers:{'Content-Type' : 'application/json'},
             data:filterObj
@@ -44,7 +44,7 @@ class Filter extends React.Component{
         .catch( err => console.log(err))
 
         axios({
-            url:'https://videoappchats.herokuapp.com/location',
+            url:'https://videoappchat.herokuapp.com/location',
             method:'GET',
             headers:{'Content-Type' : 'application/json'}
         })
@@ -68,7 +68,7 @@ class Filter extends React.Component{
             page
         };
         axios({
-            url:'https://videoappchats.herokuapp.com/filter',
+            url:'https://videoappchat.herokuapp.com/filter',
             method:'POST',
             headers:{'Content-Type' : 'application/json'},
             data:filterObj
@@ -95,7 +95,7 @@ class Filter extends React.Component{
         };
 
         axios({
-            url:'https://videoappchats.herokuapp.com/filter',
+            url:'https://videoappchat.herokuapp.com/filter',
             method:'POST',
             headers:{'Content-Type' : 'application/json'},
             data:filterObj
@@ -122,7 +122,7 @@ class Filter extends React.Component{
         };
 
         axios({
-            url:'https://videoappchats.herokuapp.com/filter',
+            url:'https://videoappchat.herokuapp.com/filter',
             method:'POST',
             headers:{'Content-Type' : 'application/json'},
             data:filterObj
@@ -147,7 +147,7 @@ class Filter extends React.Component{
         };
 
         axios({
-            url:'https://videoappchats.herokuapp.com/filter',
+            url:'https://videoappchat.herokuapp.com/filter',
             method:'POST',
             headers:{'Content-Type' : 'application/json'},
             data:filterObj
@@ -181,7 +181,7 @@ class Filter extends React.Component{
         };
 
         axios({
-            url:'https://videoappchats.herokuapp.com/filter',
+            url:'https://videoappchat.herokuapp.com/filter',
             method:'POST',
             headers:{'Content-Type' : 'application/json'},
             data:filterObj
