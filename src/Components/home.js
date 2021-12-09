@@ -17,7 +17,7 @@ class Home extends React.Component{
         sessionStorage.clear();
 
         axios({
-            url:'https://videoappchats.herokuapp.com/location',
+            url:'https://videoappchat.herokuapp.com/location',
             method:'GET',
             headers:{'Content-Type' : 'application/json'}
         })
@@ -27,7 +27,7 @@ class Home extends React.Component{
         .catch( err => console.log(err))
 
         axios({
-            url:'https://videoappchats.herokuapp.com/mealtype',
+            url:'https://videoappchat.herokuapp.com/mealtype',
             method:'GET',
             headers:{'Content-Type' : 'application/json'}
         })
