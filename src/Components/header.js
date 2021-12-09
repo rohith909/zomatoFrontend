@@ -74,7 +74,7 @@ class Headers extends React.Component {
         };
         axios({
             method: 'POST',
-            url: 'https://videoappchats.herokuapp.com/signup',
+            url: 'https://videoappchat.herokuapp.com/signup',
             headers: { 'Content-Type': 'application/json' },
             data: signUpObj
         })
@@ -107,7 +107,7 @@ class Headers extends React.Component {
         };
         axios({
             method: 'POST',
-            url: 'https://videoappchats.herokuapp.com/login',
+            url: 'https://videoappchat.herokuapp.com/login',
             headers: { 'Content-Type': 'application/json' },
             data: loginObj
         })
