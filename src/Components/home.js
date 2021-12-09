@@ -17,7 +17,7 @@ class Home extends React.Component{
         sessionStorage.clear();
 
         axios({
-            url:'http://zomato-clone-9.herokuapp.com/location',
+            url:'https://zomato-clone-9.herokuapp.com/location',
             method:'GET',
             headers:{'Content-Type' : 'application/json'}
         })
@@ -27,7 +27,7 @@ class Home extends React.Component{
         .catch( err => console.log(err))
 
         axios({
-            url:'http://zomato-clone-9.herokuapp.com/mealtype',
+            url:'https://zomato-clone-9.herokuapp.com/mealtype',
             method:'GET',
             headers:{'Content-Type' : 'application/json'}
         })
