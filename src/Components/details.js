@@ -65,7 +65,7 @@ class Details extends React.Component {
 
 
         axios({
-            url: `https://zomato-clone-9.herokuapp.com/restaurant/${restaurant}`,
+            url: `https://videoappchats.herokuapp.com/restaurant/${restaurant}`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' },
         })
@@ -80,7 +80,7 @@ class Details extends React.Component {
         const { restaurantId } = this.state;
 
         axios({
-            url: `https://zomato-clone-9.herokuapp.com/menuitems/${restaurantId}`,
+            url: `https://videoappchats.herokuapp.com/menuitems/${restaurantId}`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' },
         })
@@ -175,7 +175,7 @@ class Details extends React.Component {
     }
 
     getData = (data) => {
-        return fetch(`https://zomato-clone-9.herokuapp.com/payment`, {
+        return fetch(`https://videoappchats.herokuapp.com/payment`, {
             method: "POST",
             headers: {
                 Accept: "application/json",
@@ -217,7 +217,7 @@ class Details extends React.Component {
 
         axios({
             method: 'POST',
-            url: 'https://zomato-clone-9.herokuapp.com/orders',
+            url: 'https://videoappchats.herokuapp.com/orders',
             headers: { 'Content-Type': 'application/json' },
             data: detailsObj
         })
